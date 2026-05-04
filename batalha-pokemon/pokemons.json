@@ -1,0 +1,1502 @@
+[
+  {
+    "nome": "Bulbasaur",
+    "hp": 1,
+    "attack": 45,
+    "defense": 49,
+    "spAtk": 49,
+    "spDef": 50,
+    "speed": 65,
+    "total": 259
+  },
+  {
+    "nome": "Ivysaur",
+    "hp": 2,
+    "attack": 60,
+    "defense": 62,
+    "spAtk": 63,
+    "spDef": 50,
+    "speed": 80,
+    "total": 317
+  },
+  {
+    "nome": "Venusaur",
+    "hp": 3,
+    "attack": 80,
+    "defense": 82,
+    "spAtk": 83,
+    "spDef": 50,
+    "speed": 100,
+    "total": 398
+  },
+  {
+    "nome": "Venusaur Mega Venusaur",
+    "hp": 3,
+    "attack": 80,
+    "defense": 100,
+    "spAtk": 123,
+    "spDef": 50,
+    "speed": 122,
+    "total": 478
+  },
+  {
+    "nome": "Charmander",
+    "hp": 4,
+    "attack": 39,
+    "defense": 52,
+    "spAtk": 43,
+    "spDef": 50,
+    "speed": 60,
+    "total": 248
+  },
+  {
+    "nome": "Charmeleon",
+    "hp": 5,
+    "attack": 58,
+    "defense": 64,
+    "spAtk": 58,
+    "spDef": 50,
+    "speed": 80,
+    "total": 315
+  },
+  {
+    "nome": "Charizard",
+    "hp": 6,
+    "attack": 78,
+    "defense": 84,
+    "spAtk": 78,
+    "spDef": 50,
+    "speed": 109,
+    "total": 405
+  },
+  {
+    "nome": "Charizard Mega Charizard X",
+    "hp": 6,
+    "attack": 78,
+    "defense": 130,
+    "spAtk": 111,
+    "spDef": 50,
+    "speed": 130,
+    "total": 505
+  },
+  {
+    "nome": "Charizard Mega Charizard Y",
+    "hp": 6,
+    "attack": 78,
+    "defense": 104,
+    "spAtk": 78,
+    "spDef": 50,
+    "speed": 159,
+    "total": 475
+  },
+  {
+    "nome": "Squirtle",
+    "hp": 7,
+    "attack": 44,
+    "defense": 48,
+    "spAtk": 65,
+    "spDef": 50,
+    "speed": 50,
+    "total": 264
+  },
+  {
+    "nome": "Wartortle",
+    "hp": 8,
+    "attack": 59,
+    "defense": 63,
+    "spAtk": 80,
+    "spDef": 50,
+    "speed": 65,
+    "total": 325
+  },
+  {
+    "nome": "Blastoise",
+    "hp": 9,
+    "attack": 79,
+    "defense": 83,
+    "spAtk": 100,
+    "spDef": 50,
+    "speed": 85,
+    "total": 406
+  },
+  {
+    "nome": "Blastoise Mega Blastoise",
+    "hp": 9,
+    "attack": 79,
+    "defense": 103,
+    "spAtk": 120,
+    "spDef": 50,
+    "speed": 135,
+    "total": 496
+  },
+  {
+    "nome": "Caterpie",
+    "hp": 10,
+    "attack": 45,
+    "defense": 30,
+    "spAtk": 35,
+    "spDef": 50,
+    "speed": 20,
+    "total": 190
+  },
+  {
+    "nome": "Metapod",
+    "hp": 11,
+    "attack": 50,
+    "defense": 20,
+    "spAtk": 55,
+    "spDef": 50,
+    "speed": 25,
+    "total": 211
+  },
+  {
+    "nome": "Butterfree",
+    "hp": 12,
+    "attack": 60,
+    "defense": 45,
+    "spAtk": 50,
+    "spDef": 50,
+    "speed": 90,
+    "total": 307
+  },
+  {
+    "nome": "Weedle",
+    "hp": 13,
+    "attack": 40,
+    "defense": 35,
+    "spAtk": 30,
+    "spDef": 50,
+    "speed": 20,
+    "total": 188
+  },
+  {
+    "nome": "Kakuna",
+    "hp": 14,
+    "attack": 45,
+    "defense": 25,
+    "spAtk": 50,
+    "spDef": 50,
+    "speed": 25,
+    "total": 209
+  },
+  {
+    "nome": "Beedrill",
+    "hp": 15,
+    "attack": 65,
+    "defense": 90,
+    "spAtk": 40,
+    "spDef": 50,
+    "speed": 45,
+    "total": 305
+  },
+  {
+    "nome": "Beedrill Mega Beedrill",
+    "hp": 15,
+    "attack": 65,
+    "defense": 150,
+    "spAtk": 40,
+    "spDef": 50,
+    "speed": 15,
+    "total": 335
+  },
+  {
+    "nome": "Pidgey",
+    "hp": 16,
+    "attack": 40,
+    "defense": 45,
+    "spAtk": 40,
+    "spDef": 50,
+    "speed": 35,
+    "total": 226
+  },
+  {
+    "nome": "Pidgeotto",
+    "hp": 17,
+    "attack": 63,
+    "defense": 60,
+    "spAtk": 55,
+    "spDef": 50,
+    "speed": 50,
+    "total": 295
+  },
+  {
+    "nome": "Pidgeot",
+    "hp": 18,
+    "attack": 83,
+    "defense": 80,
+    "spAtk": 75,
+    "spDef": 50,
+    "speed": 70,
+    "total": 376
+  },
+  {
+    "nome": "Pidgeot Mega Pidgeot",
+    "hp": 18,
+    "attack": 83,
+    "defense": 80,
+    "spAtk": 80,
+    "spDef": 50,
+    "speed": 135,
+    "total": 446
+  },
+  {
+    "nome": "Rattata",
+    "hp": 19,
+    "attack": 30,
+    "defense": 56,
+    "spAtk": 35,
+    "spDef": 50,
+    "speed": 25,
+    "total": 215
+  },
+  {
+    "nome": "Rattata Alolan Form",
+    "hp": 19,
+    "attack": 30,
+    "defense": 56,
+    "spAtk": 35,
+    "spDef": 50,
+    "speed": 25,
+    "total": 215
+  },
+  {
+    "nome": "Raticate",
+    "hp": 20,
+    "attack": 55,
+    "defense": 81,
+    "spAtk": 60,
+    "spDef": 50,
+    "speed": 50,
+    "total": 316
+  },
+  {
+    "nome": "Raticate Alolan Form",
+    "hp": 20,
+    "attack": 75,
+    "defense": 71,
+    "spAtk": 70,
+    "spDef": 50,
+    "speed": 40,
+    "total": 326
+  },
+  {
+    "nome": "Spearow",
+    "hp": 21,
+    "attack": 40,
+    "defense": 60,
+    "spAtk": 30,
+    "spDef": 50,
+    "speed": 31,
+    "total": 232
+  },
+  {
+    "nome": "Fearow",
+    "hp": 22,
+    "attack": 65,
+    "defense": 90,
+    "spAtk": 65,
+    "spDef": 50,
+    "speed": 61,
+    "total": 353
+  },
+  {
+    "nome": "Ekans",
+    "hp": 23,
+    "attack": 35,
+    "defense": 60,
+    "spAtk": 44,
+    "spDef": 50,
+    "speed": 40,
+    "total": 252
+  },
+  {
+    "nome": "Arbok",
+    "hp": 24,
+    "attack": 60,
+    "defense": 95,
+    "spAtk": 69,
+    "spDef": 50,
+    "speed": 65,
+    "total": 363
+  },
+  {
+    "nome": "Pikachu",
+    "hp": 25,
+    "attack": 35,
+    "defense": 55,
+    "spAtk": 40,
+    "spDef": 50,
+    "speed": 50,
+    "total": 255
+  },
+  {
+    "nome": "Pikachu Partner Pikachu",
+    "hp": 25,
+    "attack": 45,
+    "defense": 80,
+    "spAtk": 50,
+    "spDef": 50,
+    "speed": 75,
+    "total": 325
+  },
+  {
+    "nome": "Raichu",
+    "hp": 26,
+    "attack": 60,
+    "defense": 90,
+    "spAtk": 55,
+    "spDef": 50,
+    "speed": 90,
+    "total": 371
+  },
+  {
+    "nome": "Raichu Alolan Form",
+    "hp": 26,
+    "attack": 60,
+    "defense": 85,
+    "spAtk": 50,
+    "spDef": 50,
+    "speed": 95,
+    "total": 366
+  },
+  {
+    "nome": "Raichu Mega Raichu X",
+    "hp": 26,
+    "attack": 60,
+    "defense": 135,
+    "spAtk": 95,
+    "spDef": 50,
+    "speed": 90,
+    "total": 456
+  },
+  {
+    "nome": "Raichu Mega Raichu Y",
+    "hp": 26,
+    "attack": 60,
+    "defense": 100,
+    "spAtk": 55,
+    "spDef": 50,
+    "speed": 160,
+    "total": 451
+  },
+  {
+    "nome": "Sandshrew",
+    "hp": 27,
+    "attack": 50,
+    "defense": 75,
+    "spAtk": 85,
+    "spDef": 50,
+    "speed": 20,
+    "total": 307
+  },
+  {
+    "nome": "Sandshrew Alolan Form",
+    "hp": 27,
+    "attack": 50,
+    "defense": 75,
+    "spAtk": 90,
+    "spDef": 50,
+    "speed": 10,
+    "total": 302
+  },
+  {
+    "nome": "Sandslash",
+    "hp": 28,
+    "attack": 75,
+    "defense": 100,
+    "spAtk": 110,
+    "spDef": 50,
+    "speed": 45,
+    "total": 408
+  },
+  {
+    "nome": "Sandslash Alolan Form",
+    "hp": 28,
+    "attack": 75,
+    "defense": 100,
+    "spAtk": 120,
+    "spDef": 50,
+    "speed": 25,
+    "total": 398
+  },
+  {
+    "nome": "Nidoran♀",
+    "hp": 29,
+    "attack": 55,
+    "defense": 47,
+    "spAtk": 52,
+    "spDef": 50,
+    "speed": 40,
+    "total": 273
+  },
+  {
+    "nome": "Nidorina",
+    "hp": 30,
+    "attack": 70,
+    "defense": 62,
+    "spAtk": 67,
+    "spDef": 50,
+    "speed": 55,
+    "total": 334
+  },
+  {
+    "nome": "Nidoqueen",
+    "hp": 31,
+    "attack": 90,
+    "defense": 92,
+    "spAtk": 87,
+    "spDef": 50,
+    "speed": 75,
+    "total": 425
+  },
+  {
+    "nome": "Nidoran♂",
+    "hp": 32,
+    "attack": 46,
+    "defense": 57,
+    "spAtk": 40,
+    "spDef": 50,
+    "speed": 40,
+    "total": 265
+  },
+  {
+    "nome": "Nidorino",
+    "hp": 33,
+    "attack": 61,
+    "defense": 72,
+    "spAtk": 57,
+    "spDef": 50,
+    "speed": 55,
+    "total": 328
+  },
+  {
+    "nome": "Nidoking",
+    "hp": 34,
+    "attack": 81,
+    "defense": 102,
+    "spAtk": 77,
+    "spDef": 50,
+    "speed": 85,
+    "total": 429
+  },
+  {
+    "nome": "Clefairy",
+    "hp": 35,
+    "attack": 70,
+    "defense": 45,
+    "spAtk": 48,
+    "spDef": 50,
+    "speed": 60,
+    "total": 308
+  },
+  {
+    "nome": "Clefable",
+    "hp": 36,
+    "attack": 95,
+    "defense": 70,
+    "spAtk": 73,
+    "spDef": 50,
+    "speed": 95,
+    "total": 419
+  },
+  {
+    "nome": "Clefable Mega Clefable",
+    "hp": 36,
+    "attack": 95,
+    "defense": 80,
+    "spAtk": 93,
+    "spDef": 50,
+    "speed": 135,
+    "total": 489
+  },
+  {
+    "nome": "Vulpix",
+    "hp": 37,
+    "attack": 38,
+    "defense": 41,
+    "spAtk": 40,
+    "spDef": 50,
+    "speed": 50,
+    "total": 256
+  },
+  {
+    "nome": "Vulpix Alolan Form",
+    "hp": 37,
+    "attack": 38,
+    "defense": 41,
+    "spAtk": 40,
+    "spDef": 50,
+    "speed": 50,
+    "total": 256
+  },
+  {
+    "nome": "Ninetales",
+    "hp": 38,
+    "attack": 73,
+    "defense": 76,
+    "spAtk": 75,
+    "spDef": 50,
+    "speed": 81,
+    "total": 393
+  },
+  {
+    "nome": "Ninetales Alolan Form",
+    "hp": 38,
+    "attack": 73,
+    "defense": 67,
+    "spAtk": 75,
+    "spDef": 50,
+    "speed": 81,
+    "total": 384
+  },
+  {
+    "nome": "Jigglypuff",
+    "hp": 39,
+    "attack": 115,
+    "defense": 45,
+    "spAtk": 20,
+    "spDef": 50,
+    "speed": 45,
+    "total": 314
+  },
+  {
+    "nome": "Wigglytuff",
+    "hp": 40,
+    "attack": 140,
+    "defense": 70,
+    "spAtk": 45,
+    "spDef": 50,
+    "speed": 85,
+    "total": 430
+  },
+  {
+    "nome": "Zubat",
+    "hp": 41,
+    "attack": 40,
+    "defense": 45,
+    "spAtk": 35,
+    "spDef": 50,
+    "speed": 30,
+    "total": 241
+  },
+  {
+    "nome": "Golbat",
+    "hp": 42,
+    "attack": 75,
+    "defense": 80,
+    "spAtk": 70,
+    "spDef": 50,
+    "speed": 65,
+    "total": 382
+  },
+  {
+    "nome": "Oddish",
+    "hp": 43,
+    "attack": 45,
+    "defense": 50,
+    "spAtk": 55,
+    "spDef": 50,
+    "speed": 75,
+    "total": 318
+  },
+  {
+    "nome": "Gloom",
+    "hp": 44,
+    "attack": 60,
+    "defense": 65,
+    "spAtk": 70,
+    "spDef": 50,
+    "speed": 85,
+    "total": 374
+  },
+  {
+    "nome": "Vileplume",
+    "hp": 45,
+    "attack": 75,
+    "defense": 80,
+    "spAtk": 85,
+    "spDef": 50,
+    "speed": 110,
+    "total": 445
+  },
+  {
+    "nome": "Paras",
+    "hp": 46,
+    "attack": 35,
+    "defense": 70,
+    "spAtk": 55,
+    "spDef": 50,
+    "speed": 45,
+    "total": 301
+  },
+  {
+    "nome": "Parasect",
+    "hp": 47,
+    "attack": 60,
+    "defense": 95,
+    "spAtk": 80,
+    "spDef": 50,
+    "speed": 60,
+    "total": 392
+  },
+  {
+    "nome": "Venonat",
+    "hp": 48,
+    "attack": 60,
+    "defense": 55,
+    "spAtk": 50,
+    "spDef": 50,
+    "speed": 40,
+    "total": 303
+  },
+  {
+    "nome": "Venomoth",
+    "hp": 49,
+    "attack": 70,
+    "defense": 65,
+    "spAtk": 60,
+    "spDef": 50,
+    "speed": 90,
+    "total": 384
+  },
+  {
+    "nome": "Diglett",
+    "hp": 50,
+    "attack": 10,
+    "defense": 55,
+    "spAtk": 25,
+    "spDef": 50,
+    "speed": 35,
+    "total": 225
+  },
+  {
+    "nome": "Diglett Alolan Form",
+    "hp": 50,
+    "attack": 10,
+    "defense": 55,
+    "spAtk": 30,
+    "spDef": 50,
+    "speed": 35,
+    "total": 230
+  },
+  {
+    "nome": "Dugtrio",
+    "hp": 51,
+    "attack": 35,
+    "defense": 100,
+    "spAtk": 50,
+    "spDef": 50,
+    "speed": 50,
+    "total": 336
+  },
+  {
+    "nome": "Dugtrio Alolan Form",
+    "hp": 51,
+    "attack": 35,
+    "defense": 100,
+    "spAtk": 60,
+    "spDef": 50,
+    "speed": 50,
+    "total": 346
+  },
+  {
+    "nome": "Meowth",
+    "hp": 52,
+    "attack": 40,
+    "defense": 45,
+    "spAtk": 35,
+    "spDef": 50,
+    "speed": 40,
+    "total": 262
+  },
+  {
+    "nome": "Meowth Alolan Form",
+    "hp": 52,
+    "attack": 40,
+    "defense": 35,
+    "spAtk": 35,
+    "spDef": 50,
+    "speed": 50,
+    "total": 262
+  },
+  {
+    "nome": "Meowth Galarian Form",
+    "hp": 52,
+    "attack": 50,
+    "defense": 65,
+    "spAtk": 55,
+    "spDef": 50,
+    "speed": 40,
+    "total": 312
+  },
+  {
+    "nome": "Persian",
+    "hp": 53,
+    "attack": 65,
+    "defense": 70,
+    "spAtk": 60,
+    "spDef": 50,
+    "speed": 65,
+    "total": 363
+  },
+  {
+    "nome": "Persian Alolan Form",
+    "hp": 53,
+    "attack": 65,
+    "defense": 60,
+    "spAtk": 60,
+    "spDef": 50,
+    "speed": 75,
+    "total": 363
+  },
+  {
+    "nome": "Psyduck",
+    "hp": 54,
+    "attack": 50,
+    "defense": 52,
+    "spAtk": 48,
+    "spDef": 50,
+    "speed": 65,
+    "total": 319
+  },
+  {
+    "nome": "Golduck",
+    "hp": 55,
+    "attack": 80,
+    "defense": 82,
+    "spAtk": 78,
+    "spDef": 50,
+    "speed": 95,
+    "total": 440
+  },
+  {
+    "nome": "Mankey",
+    "hp": 56,
+    "attack": 40,
+    "defense": 80,
+    "spAtk": 35,
+    "spDef": 50,
+    "speed": 35,
+    "total": 296
+  },
+  {
+    "nome": "Primeape",
+    "hp": 57,
+    "attack": 65,
+    "defense": 105,
+    "spAtk": 60,
+    "spDef": 50,
+    "speed": 60,
+    "total": 397
+  },
+  {
+    "nome": "Growlithe",
+    "hp": 58,
+    "attack": 55,
+    "defense": 70,
+    "spAtk": 45,
+    "spDef": 50,
+    "speed": 70,
+    "total": 348
+  },
+  {
+    "nome": "Growlithe Hisuian Form",
+    "hp": 58,
+    "attack": 60,
+    "defense": 75,
+    "spAtk": 45,
+    "spDef": 50,
+    "speed": 65,
+    "total": 353
+  },
+  {
+    "nome": "Arcanine",
+    "hp": 59,
+    "attack": 90,
+    "defense": 110,
+    "spAtk": 80,
+    "spDef": 50,
+    "speed": 100,
+    "total": 489
+  },
+  {
+    "nome": "Arcanine Hisuian Form",
+    "hp": 59,
+    "attack": 95,
+    "defense": 115,
+    "spAtk": 80,
+    "spDef": 50,
+    "speed": 95,
+    "total": 494
+  },
+  {
+    "nome": "Poliwag",
+    "hp": 60,
+    "attack": 40,
+    "defense": 50,
+    "spAtk": 40,
+    "spDef": 50,
+    "speed": 40,
+    "total": 280
+  },
+  {
+    "nome": "Poliwhirl",
+    "hp": 61,
+    "attack": 65,
+    "defense": 65,
+    "spAtk": 65,
+    "spDef": 50,
+    "speed": 50,
+    "total": 356
+  },
+  {
+    "nome": "Poliwrath",
+    "hp": 62,
+    "attack": 90,
+    "defense": 95,
+    "spAtk": 95,
+    "spDef": 50,
+    "speed": 70,
+    "total": 462
+  },
+  {
+    "nome": "Abra",
+    "hp": 63,
+    "attack": 25,
+    "defense": 20,
+    "spAtk": 15,
+    "spDef": 50,
+    "speed": 105,
+    "total": 278
+  },
+  {
+    "nome": "Kadabra",
+    "hp": 64,
+    "attack": 40,
+    "defense": 35,
+    "spAtk": 30,
+    "spDef": 50,
+    "speed": 120,
+    "total": 339
+  },
+  {
+    "nome": "Alakazam",
+    "hp": 65,
+    "attack": 55,
+    "defense": 50,
+    "spAtk": 45,
+    "spDef": 50,
+    "speed": 135,
+    "total": 400
+  },
+  {
+    "nome": "Alakazam Mega Alakazam",
+    "hp": 65,
+    "attack": 55,
+    "defense": 50,
+    "spAtk": 65,
+    "spDef": 50,
+    "speed": 175,
+    "total": 460
+  },
+  {
+    "nome": "Machop",
+    "hp": 66,
+    "attack": 70,
+    "defense": 80,
+    "spAtk": 50,
+    "spDef": 50,
+    "speed": 35,
+    "total": 351
+  },
+  {
+    "nome": "Machoke",
+    "hp": 67,
+    "attack": 80,
+    "defense": 100,
+    "spAtk": 70,
+    "spDef": 50,
+    "speed": 50,
+    "total": 417
+  },
+  {
+    "nome": "Machamp",
+    "hp": 68,
+    "attack": 90,
+    "defense": 130,
+    "spAtk": 80,
+    "spDef": 50,
+    "speed": 65,
+    "total": 483
+  },
+  {
+    "nome": "Bellsprout",
+    "hp": 69,
+    "attack": 50,
+    "defense": 75,
+    "spAtk": 35,
+    "spDef": 50,
+    "speed": 70,
+    "total": 349
+  },
+  {
+    "nome": "Weepinbell",
+    "hp": 70,
+    "attack": 65,
+    "defense": 90,
+    "spAtk": 50,
+    "spDef": 50,
+    "speed": 85,
+    "total": 410
+  },
+  {
+    "nome": "Victreebel",
+    "hp": 71,
+    "attack": 80,
+    "defense": 105,
+    "spAtk": 65,
+    "spDef": 50,
+    "speed": 100,
+    "total": 471
+  },
+  {
+    "nome": "Victreebel Mega Victreebel",
+    "hp": 71,
+    "attack": 80,
+    "defense": 125,
+    "spAtk": 85,
+    "spDef": 50,
+    "speed": 135,
+    "total": 546
+  },
+  {
+    "nome": "Tentacool",
+    "hp": 72,
+    "attack": 40,
+    "defense": 40,
+    "spAtk": 35,
+    "spDef": 50,
+    "speed": 50,
+    "total": 287
+  },
+  {
+    "nome": "Tentacruel",
+    "hp": 73,
+    "attack": 80,
+    "defense": 70,
+    "spAtk": 65,
+    "spDef": 50,
+    "speed": 80,
+    "total": 418
+  },
+  {
+    "nome": "Geodude",
+    "hp": 74,
+    "attack": 40,
+    "defense": 80,
+    "spAtk": 100,
+    "spDef": 50,
+    "speed": 30,
+    "total": 374
+  },
+  {
+    "nome": "Geodude Alolan Form",
+    "hp": 74,
+    "attack": 40,
+    "defense": 80,
+    "spAtk": 100,
+    "spDef": 50,
+    "speed": 30,
+    "total": 374
+  },
+  {
+    "nome": "Graveler",
+    "hp": 75,
+    "attack": 55,
+    "defense": 95,
+    "spAtk": 115,
+    "spDef": 50,
+    "speed": 45,
+    "total": 435
+  },
+  {
+    "nome": "Graveler Alolan Form",
+    "hp": 75,
+    "attack": 55,
+    "defense": 95,
+    "spAtk": 115,
+    "spDef": 50,
+    "speed": 45,
+    "total": 435
+  },
+  {
+    "nome": "Golem",
+    "hp": 76,
+    "attack": 80,
+    "defense": 120,
+    "spAtk": 130,
+    "spDef": 50,
+    "speed": 55,
+    "total": 511
+  },
+  {
+    "nome": "Golem Alolan Form",
+    "hp": 76,
+    "attack": 80,
+    "defense": 120,
+    "spAtk": 130,
+    "spDef": 50,
+    "speed": 55,
+    "total": 511
+  },
+  {
+    "nome": "Ponyta",
+    "hp": 77,
+    "attack": 50,
+    "defense": 85,
+    "spAtk": 55,
+    "spDef": 50,
+    "speed": 65,
+    "total": 382
+  },
+  {
+    "nome": "Ponyta Galarian Form",
+    "hp": 77,
+    "attack": 50,
+    "defense": 85,
+    "spAtk": 55,
+    "spDef": 50,
+    "speed": 65,
+    "total": 382
+  },
+  {
+    "nome": "Rapidash",
+    "hp": 78,
+    "attack": 65,
+    "defense": 100,
+    "spAtk": 70,
+    "spDef": 50,
+    "speed": 80,
+    "total": 443
+  },
+  {
+    "nome": "Rapidash Galarian Form",
+    "hp": 78,
+    "attack": 65,
+    "defense": 100,
+    "spAtk": 70,
+    "spDef": 50,
+    "speed": 80,
+    "total": 443
+  },
+  {
+    "nome": "Slowpoke",
+    "hp": 79,
+    "attack": 90,
+    "defense": 65,
+    "spAtk": 65,
+    "spDef": 50,
+    "speed": 40,
+    "total": 389
+  },
+  {
+    "nome": "Slowpoke Galarian Form",
+    "hp": 79,
+    "attack": 90,
+    "defense": 65,
+    "spAtk": 65,
+    "spDef": 50,
+    "speed": 40,
+    "total": 389
+  },
+  {
+    "nome": "Slowbro",
+    "hp": 80,
+    "attack": 95,
+    "defense": 75,
+    "spAtk": 110,
+    "spDef": 50,
+    "speed": 100,
+    "total": 510
+  },
+  {
+    "nome": "Slowbro Mega Slowbro",
+    "hp": 80,
+    "attack": 95,
+    "defense": 75,
+    "spAtk": 180,
+    "spDef": 50,
+    "speed": 130,
+    "total": 610
+  },
+  {
+    "nome": "Slowbro Galarian Form",
+    "hp": 80,
+    "attack": 95,
+    "defense": 100,
+    "spAtk": 95,
+    "spDef": 50,
+    "speed": 100,
+    "total": 520
+  },
+  {
+    "nome": "Magnemite",
+    "hp": 81,
+    "attack": 25,
+    "defense": 35,
+    "spAtk": 70,
+    "spDef": 50,
+    "speed": 95,
+    "total": 356
+  },
+  {
+    "nome": "Magneton",
+    "hp": 82,
+    "attack": 50,
+    "defense": 60,
+    "spAtk": 95,
+    "spDef": 50,
+    "speed": 120,
+    "total": 457
+  },
+  {
+    "nome": "Farfetch\u0027d",
+    "hp": 83,
+    "attack": 52,
+    "defense": 90,
+    "spAtk": 55,
+    "spDef": 50,
+    "speed": 58,
+    "total": 388
+  },
+  {
+    "nome": "Farfetch\u0027d Galarian Form",
+    "hp": 83,
+    "attack": 52,
+    "defense": 95,
+    "spAtk": 55,
+    "spDef": 50,
+    "speed": 58,
+    "total": 393
+  },
+  {
+    "nome": "Doduo",
+    "hp": 84,
+    "attack": 35,
+    "defense": 85,
+    "spAtk": 45,
+    "spDef": 50,
+    "speed": 35,
+    "total": 334
+  },
+  {
+    "nome": "Dodrio",
+    "hp": 85,
+    "attack": 60,
+    "defense": 110,
+    "spAtk": 70,
+    "spDef": 50,
+    "speed": 60,
+    "total": 435
+  },
+  {
+    "nome": "Seel",
+    "hp": 86,
+    "attack": 65,
+    "defense": 45,
+    "spAtk": 55,
+    "spDef": 50,
+    "speed": 45,
+    "total": 346
+  },
+  {
+    "nome": "Dewgong",
+    "hp": 87,
+    "attack": 90,
+    "defense": 70,
+    "spAtk": 80,
+    "spDef": 50,
+    "speed": 70,
+    "total": 447
+  },
+  {
+    "nome": "Grimer",
+    "hp": 88,
+    "attack": 80,
+    "defense": 80,
+    "spAtk": 50,
+    "spDef": 50,
+    "speed": 40,
+    "total": 388
+  },
+  {
+    "nome": "Grimer Alolan Form",
+    "hp": 88,
+    "attack": 80,
+    "defense": 80,
+    "spAtk": 50,
+    "spDef": 50,
+    "speed": 40,
+    "total": 388
+  },
+  {
+    "nome": "Muk",
+    "hp": 89,
+    "attack": 105,
+    "defense": 105,
+    "spAtk": 75,
+    "spDef": 50,
+    "speed": 65,
+    "total": 489
+  },
+  {
+    "nome": "Muk Alolan Form",
+    "hp": 89,
+    "attack": 105,
+    "defense": 105,
+    "spAtk": 75,
+    "spDef": 50,
+    "speed": 65,
+    "total": 489
+  },
+  {
+    "nome": "Shellder",
+    "hp": 90,
+    "attack": 30,
+    "defense": 65,
+    "spAtk": 100,
+    "spDef": 50,
+    "speed": 45,
+    "total": 380
+  },
+  {
+    "nome": "Cloyster",
+    "hp": 91,
+    "attack": 50,
+    "defense": 95,
+    "spAtk": 180,
+    "spDef": 50,
+    "speed": 85,
+    "total": 551
+  },
+  {
+    "nome": "Gastly",
+    "hp": 92,
+    "attack": 30,
+    "defense": 35,
+    "spAtk": 30,
+    "spDef": 50,
+    "speed": 100,
+    "total": 337
+  },
+  {
+    "nome": "Haunter",
+    "hp": 93,
+    "attack": 45,
+    "defense": 50,
+    "spAtk": 45,
+    "spDef": 50,
+    "speed": 115,
+    "total": 398
+  },
+  {
+    "nome": "Gengar",
+    "hp": 94,
+    "attack": 60,
+    "defense": 65,
+    "spAtk": 60,
+    "spDef": 50,
+    "speed": 130,
+    "total": 459
+  },
+  {
+    "nome": "Gengar Mega Gengar",
+    "hp": 94,
+    "attack": 60,
+    "defense": 65,
+    "spAtk": 80,
+    "spDef": 50,
+    "speed": 170,
+    "total": 519
+  },
+  {
+    "nome": "Onix",
+    "hp": 95,
+    "attack": 35,
+    "defense": 45,
+    "spAtk": 160,
+    "spDef": 50,
+    "speed": 30,
+    "total": 415
+  },
+  {
+    "nome": "Drowzee",
+    "hp": 96,
+    "attack": 60,
+    "defense": 48,
+    "spAtk": 45,
+    "spDef": 50,
+    "speed": 43,
+    "total": 342
+  },
+  {
+    "nome": "Hypno",
+    "hp": 97,
+    "attack": 85,
+    "defense": 73,
+    "spAtk": 70,
+    "spDef": 50,
+    "speed": 73,
+    "total": 448
+  },
+  {
+    "nome": "Krabby",
+    "hp": 98,
+    "attack": 30,
+    "defense": 105,
+    "spAtk": 90,
+    "spDef": 50,
+    "speed": 25,
+    "total": 398
+  },
+  {
+    "nome": "Kingler",
+    "hp": 99,
+    "attack": 55,
+    "defense": 130,
+    "spAtk": 115,
+    "spDef": 50,
+    "speed": 50,
+    "total": 499
+  },
+  {
+    "nome": "Voltorb",
+    "hp": 100,
+    "attack": 40,
+    "defense": 30,
+    "spAtk": 50,
+    "spDef": 50,
+    "speed": 55,
+    "total": 325
+  },
+  {
+    "nome": "Voltorb Hisuian Form",
+    "hp": 100,
+    "attack": 40,
+    "defense": 30,
+    "spAtk": 50,
+    "spDef": 50,
+    "speed": 55,
+    "total": 325
+  },
+  {
+    "nome": "Electrode",
+    "hp": 101,
+    "attack": 60,
+    "defense": 50,
+    "spAtk": 70,
+    "spDef": 50,
+    "speed": 80,
+    "total": 411
+  },
+  {
+    "nome": "Electrode Hisuian Form",
+    "hp": 101,
+    "attack": 60,
+    "defense": 50,
+    "spAtk": 70,
+    "spDef": 50,
+    "speed": 80,
+    "total": 411
+  },
+  {
+    "nome": "Exeggcute",
+    "hp": 102,
+    "attack": 60,
+    "defense": 40,
+    "spAtk": 80,
+    "spDef": 50,
+    "speed": 60,
+    "total": 392
+  },
+  {
+    "nome": "Exeggutor",
+    "hp": 103,
+    "attack": 95,
+    "defense": 95,
+    "spAtk": 85,
+    "spDef": 50,
+    "speed": 125,
+    "total": 553
+  },
+  {
+    "nome": "Exeggutor Alolan Form",
+    "hp": 103,
+    "attack": 95,
+    "defense": 105,
+    "spAtk": 85,
+    "spDef": 50,
+    "speed": 125,
+    "total": 563
+  },
+  {
+    "nome": "Cubone",
+    "hp": 104,
+    "attack": 50,
+    "defense": 50,
+    "spAtk": 95,
+    "spDef": 50,
+    "speed": 40,
+    "total": 389
+  },
+  {
+    "nome": "Marowak",
+    "hp": 105,
+    "attack": 60,
+    "defense": 80,
+    "spAtk": 110,
+    "spDef": 50,
+    "speed": 50,
+    "total": 455
+  },
+  {
+    "nome": "Marowak Alolan Form",
+    "hp": 105,
+    "attack": 60,
+    "defense": 80,
+    "spAtk": 110,
+    "spDef": 50,
+    "speed": 50,
+    "total": 455
+  },
+  {
+    "nome": "Hitmonlee",
+    "hp": 106,
+    "attack": 50,
+    "defense": 120,
+    "spAtk": 53,
+    "spDef": 50,
+    "speed": 35,
+    "total": 414
+  },
+  {
+    "nome": "Hitmonchan",
+    "hp": 107,
+    "attack": 50,
+    "defense": 105,
+    "spAtk": 79,
+    "spDef": 50,
+    "speed": 35,
+    "total": 426
+  },
+  {
+    "nome": "Lickitung",
+    "hp": 108,
+    "attack": 90,
+    "defense": 55,
+    "spAtk": 75,
+    "spDef": 50,
+    "speed": 60,
+    "total": 438
+  }
+]
