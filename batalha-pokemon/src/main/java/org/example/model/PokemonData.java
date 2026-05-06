@@ -1,6 +1,7 @@
 package org.example.model;
 
 public class PokemonData {
+
     private String nome;
     private int hp;
     private int attack;
@@ -8,7 +9,6 @@ public class PokemonData {
     private int spAtk;
     private int spDef;
     private int speed;
-    private int total;
 
     public PokemonData(String nome, int hp, int attack, int defense,
                        int spAtk, int spDef, int speed) {
@@ -19,7 +19,6 @@ public class PokemonData {
         this.spAtk = spAtk;
         this.spDef = spDef;
         this.speed = speed;
-        this.total = hp + attack + defense + spAtk + spDef + speed;
     }
 
     public String getNome() { return nome; }
@@ -29,5 +28,4 @@ public class PokemonData {
     public int getSpAtk() { return spAtk; }
     public int getSpDef() { return spDef; }
     public int getSpeed() { return speed; }
-    public int getTotal() { return total; }
 }
