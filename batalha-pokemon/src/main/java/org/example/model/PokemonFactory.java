@@ -2,28 +2,64 @@ package org.example.model;
 
 public class PokemonFactory {
 
-    public static final int TIPO_NORMAL = 0;
-    public static final int TIPO_FOGO = 1;
-    public static final int TIPO_AGUA = 2;
-    public static final int TIPO_ELETRICO = 3;
+    public static Pokemon criarPokemon(PokemonData dados, Type tipo) {
 
-    public static Pokemon criarPokemon(PokemonData dados, int tipo) {
         switch (tipo) {
-            case TIPO_FOGO:
+            case FOGO:
                 return new PokemonFogo(
                         dados.getNome(), dados.getHp(), dados.getAttack(),
                         dados.getDefense(), dados.getSpAtk(), dados.getSpDef(), dados.getSpeed()
                 );
-            case TIPO_AGUA:
+
+            case AGUA:
                 return new PokemonAgua(
                         dados.getNome(), dados.getHp(), dados.getAttack(),
                         dados.getDefense(), dados.getSpAtk(), dados.getSpDef(), dados.getSpeed()
                 );
-            case TIPO_ELETRICO:
+
+            case RAIO:
                 return new PokemonEletrico(
                         dados.getNome(), dados.getHp(), dados.getAttack(),
                         dados.getDefense(), dados.getSpAtk(), dados.getSpDef(), dados.getSpeed()
                 );
+
+            case GRAMA:
+                return new PokemonGrama(
+                        dados.getNome(), dados.getHp(), dados.getAttack(),
+                        dados.getDefense(), dados.getSpAtk(), dados.getSpDef(), dados.getSpeed()
+                );
+
+            case FANTASMA:
+                return new PokemonFantasma(
+                        dados.getNome(), dados.getHp(), dados.getAttack(),
+                        dados.getDefense(), dados.getSpAtk(), dados.getSpDef(), dados.getSpeed()
+                );
+
+            case METAL:
+                return new PokemonMetal(
+                        dados.getNome(), dados.getHp(), dados.getAttack(),
+                        dados.getDefense(), dados.getSpAtk(), dados.getSpDef(), dados.getSpeed()
+                );
+
+            case PSIQUICO:
+                return new PokemonPsiquico(
+                        dados.getNome(), dados.getHp(), dados.getAttack(),
+                        dados.getDefense(), dados.getSpAtk(), dados.getSpDef(), dados.getSpeed()
+                );
+
+            case PEDRA:
+                return new PokemonPedra(
+                        dados.getNome(), dados.getHp(), dados.getAttack(),
+                        dados.getDefense(), dados.getSpAtk(), dados.getSpDef(), dados.getSpeed()
+                );
+
+            case LUTADOR:
+                return new PokemonLutador(
+                        dados.getNome(), dados.getHp(), dados.getAttack(),
+                        dados.getDefense(), dados.getSpAtk(), dados.getSpDef(), dados.getSpeed()
+                );
+
+            case NORMAL:
             default:
                 return new PokemonNormal(
                         dados.getNome(), dados.getHp(), dados.getAttack(),

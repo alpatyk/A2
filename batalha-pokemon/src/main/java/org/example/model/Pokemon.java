@@ -1,7 +1,10 @@
 package org.example.model;
 
 public abstract class Pokemon {
+
     protected String nome;
+    protected Type tipo;
+
     protected int hpMax;
     protected int hpAtual;
     protected int attack;
@@ -11,9 +14,10 @@ public abstract class Pokemon {
     protected int speed;
     protected int nivel;
 
-    public Pokemon(String nome, int hp, int attack, int defense,
+    public Pokemon(String nome, Type tipo, int hp, int attack, int defense,
                    int spAtk, int spDef, int speed) {
         this.nome = nome;
+        this.tipo = tipo;
         this.hpMax = hp;
         this.hpAtual = hp;
         this.attack = attack;
@@ -25,6 +29,29 @@ public abstract class Pokemon {
     }
 
     public abstract int ataqueNormal(Pokemon oponente);
+
+    protected int calcularDano(Pokemon oponente, boolean especial) {
+
+        double multiplicador = this.tipo.multiplicador(oponente.getTipo());
+
+        double ataqueBase = especial ? this.spAtk : this.attack;
+        double defesaBase = especial ? oponente.spDef : oponente.defense;
+
+        double danoBase = (ataqueBase / defesaBase) * 10;
+
+        int danoFinal = (int) (danoBase * multiplicador);
+
+        // Feedback opcional
+        if (multiplicador == 2.0) {
+            System.out.println("🔥 Super efetivo!");
+        } else if (multiplicador == 0.5) {
+            System.out.println("😐 Pouco efetivo...");
+        }
+
+        oponente.receberDano(danoFinal);
+
+        return danoFinal;
+    }
 
     public void receberDano(int dano) {
         this.hpAtual -= dano;
@@ -42,6 +69,7 @@ public abstract class Pokemon {
     }
 
     public String getNome() { return nome; }
+    public Type getTipo() { return tipo; }
     public int getHpAtual() { return hpAtual; }
     public int getHpMax() { return hpMax; }
     public int getAttack() { return attack; }
@@ -50,6 +78,6 @@ public abstract class Pokemon {
 
     @Override
     public String toString() {
-        return String.format("%s (HP: %d/%d)", nome, hpAtual, hpMax);
+        return String.format("%s [%s] (HP: %d/%d)", nome, tipo, hpAtual, hpMax);
     }
 }
