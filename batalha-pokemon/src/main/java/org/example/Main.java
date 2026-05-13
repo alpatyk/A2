@@ -2,6 +2,7 @@ package org.example;
 
 import org.example.model.*;
 import org.example.scraper.PokemonScraper;
+import org.example.scraper.SSLHelper;
 import org.example.battle.Batalha;
 
 import java.util.List;
@@ -11,7 +12,15 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
+        System.out.println("INICIANDO...");
+
+        // 🔓 Desabilita verificação SSL
+        SSLHelper.disableSSLVerification();
+
+        System.out.println("SSL DESABILITADO!");
+
         PokemonScraper scraper = new PokemonScraper();
+
         List<PokemonData> lista = scraper.scrape();
 
         Scanner sc = new Scanner(System.in);
@@ -22,22 +31,35 @@ public class Main {
         System.out.println("Escolha 6 pokémons:");
 
         for (int i = 0; i < 6; i++) {
+
             System.out.println("Escolha índice (0-149): ");
+
             int idx = sc.nextInt();
 
             player.adicionarPokemon(
-                    PokemonFactory.criarPokemon(lista.get(idx), Type.NORMAL)
+                    PokemonFactory.criarPokemon(
+                            lista.get(idx),
+                            Type.NORMAL
+                    )
             );
         }
 
         for (int i = 0; i < 6; i++) {
+
             cpu.adicionarPokemon(
-                    PokemonFactory.criarPokemon(lista.get(i + 10), Type.NORMAL)
+                    PokemonFactory.criarPokemon(
+                            lista.get(i + 10),
+                            Type.NORMAL
+                    )
             );
         }
 
-        Ataque atk = new Ataque("Ataque", 10, Type.NORMAL, false);
+        Ataque ataque = new AtaqueEspecial(
+                "Choque do Trovão",
+                90,
+                Type.RAIO
+        );
 
-        Batalha.lutar(player, cpu, atk);
+        Batalha.lutar(player, cpu, ataque);
     }
 }

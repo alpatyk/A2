@@ -1,11 +1,11 @@
 package org.example.model;
 
-public class Ataque {
+public abstract class Ataque implements Dano {
 
-    private String nome;
-    private int poder;
-    private Type tipo;
-    private boolean especial;
+    protected String nome;
+    protected int poder;
+    protected Type tipo;
+    protected boolean especial;
 
     public Ataque(String nome, int poder, Type tipo, boolean especial) {
         this.nome = nome;
@@ -14,19 +14,19 @@ public class Ataque {
         this.especial = especial;
     }
 
-    public int calcularDano(Pokemon atk, Pokemon def) {
+    public String getNome() {
+        return nome;
+    }
 
-        double mult = tipo.multiplicador(def.getTipo());
+    public int getPoder() {
+        return poder;
+    }
 
-        double ataqueBase = especial ? atk.spAtk : atk.attack;
-        double defesaBase = especial ? def.spDef : def.defense;
+    public Type getTipo() {
+        return tipo;
+    }
 
-        double dano = (ataqueBase / defesaBase) * poder;
-
-        int finalDano = (int) (dano * mult);
-
-        def.receberDano(finalDano);
-
-        return finalDano;
+    public boolean isEspecial() {
+        return especial;
     }
 }
