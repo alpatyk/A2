@@ -14,24 +14,20 @@ public class Main {
 
         System.out.println("INICIANDO...");
 
-        // 🔓 Desabilita SSL
+
         SSLHelper.disableSSLVerification();
 
         System.out.println("SSL DESABILITADO!");
 
-        // 🌐 Scraper
         PokemonScraper scraper = new PokemonScraper();
 
         List<PokemonData> lista = scraper.scrape();
 
-        // 🎮 Scanner
         Scanner sc = new Scanner(System.in);
 
-        // 👤 Treinadores
         Treinador player = new Treinador("Jogador");
         Treinador cpu = new Treinador("CPU");
 
-        // 📋 Mostrar pokémons disponíveis
         System.out.println("\n===== POKÉMONS DISPONÍVEIS =====\n");
 
         for (int i = 0; i < lista.size(); i++) {
@@ -47,7 +43,6 @@ public class Main {
             );
         }
 
-        // 🎯 Escolha do jogador
         System.out.println("\nEscolha 6 pokémons:");
 
         for (int i = 0; i < 6; i++) {
@@ -70,7 +65,7 @@ public class Main {
             );
         }
 
-        // 🤖 Time CPU
+
         for (int i = 0; i < 6; i++) {
 
             cpu.adicionarPokemon(
@@ -81,14 +76,14 @@ public class Main {
             );
         }
 
-        // ⚡ Ataque
+
         Ataque ataque = new AtaqueEspecial(
                 "Choque do Trovão",
                 90,
                 Type.RAIO
         );
 
-        // ⚔️ Batalha
+
         Batalha.lutar(player, cpu, ataque);
     }
 }
