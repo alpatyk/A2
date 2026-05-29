@@ -85,11 +85,11 @@ public class Main {
                     Type.RAIO
             );
 
-            //String teste = null;
+           String teste = null;
 
-           //teste.length();
+           teste.length();
 
-            //Batalha.lutar(player, cpu, ataque);
+           Batalha.lutar(player, cpu, ataque);
 
         }
 
