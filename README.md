@@ -1,13 +1,28 @@
-Trabalho para obtenção de nota da materia de Desenvolvimento de softwares cursada pelo professor Ariel.
-Sistema de batalha de treinadores pokmons;
-contem os seguintes elementos:
-batalha funcional,
-escolha de Pokémons pelo nome,
-herança,
-abstração,
-interface,
-encapsulamento,
-polimorfismo,
-scraper,
-factory,
-organização em pacotes.
+# Simulador de Batalha Pokémon
+
+Projeto desenvolvido para a disciplina de Programação Orientada a Objetos.
+
+## Conceitos aplicados
+
+- Herança
+- Classe Abstrata
+- Interface
+- Encapsulamento
+- Polimorfismo
+- Exceções Personalizadas
+- Tratamento de Exceções (try/catch/finally)
+- Testes Unitários com JUnit
+- Factory Pattern
+- Web Scraping com Jsoup
+
+## Estrutura
+
+- model
+- battle
+- scraper
+- exception
+- test
+
+## Autor
+
+Alberto Patyk
